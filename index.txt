@@ -20,5 +20,19 @@ frame pointer
   
   stack trace    stack backtrace    stack traceback
   a report of the active stack frames at a certain point in time
+  
+  A thread-safe function can be called simultaneously from multiple threads, even when the invocations use shared data, 
+  because all references to the shared data are serialized.
+  
+  A reentrant function can also be called simultaneously from multiple threads,
+  but only if each invocation uses its own data.
+
+a thread-safe function is always reentrant, but a reentrant function is not always thread-safe.
+
+a class is said to be reentrant if its member functions can be called safely from multiple threads,
+as long as each thread uses a different instance of the class.
+
+The class is thread-safe if its member functions can be called safely from multiple threads,
+even if all the threads use the same instance of the class.
 
  
