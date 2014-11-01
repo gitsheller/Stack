@@ -1,0 +1,23 @@
+call stack  execution stack  control stack   run-time stack  machine stack  the stack
+stack frame  activation record  activation frame
+winding
+unwinding
+
+stack pointer
+frame pointer
+
+ stack overflow
+ buffer overflow   buffer overrun
+ 
+ buffer
+ cache
+ 
+  reentrant  reentrancy
+  
+  ABI
+  calling convention
+  
+  stack trace    stack backtrace    stack traceback
+  a report of the active stack frames at a certain point in time
+
+ 
