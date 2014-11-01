@@ -13,6 +13,7 @@ frame pointer
  cache
  
   reentrant  reentrancy
+  thread-safety
   
   ABI
   calling convention
