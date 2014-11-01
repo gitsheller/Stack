@@ -36,3 +36,4 @@ The class is thread-safe if its member functions can be called safely from multi
 even if all the threads use the same instance of the class.
 
  
+.bss    Block Started by Symbol
